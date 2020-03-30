@@ -14,6 +14,10 @@ class SLE():
 		self.dSi=None
 		self.dSiPred=None
 		self.arg = arg
+		
+	def helloWorld():
+		print('Hi')
+		return None
 
 	def set_S(self,S):
 		self.S=S
