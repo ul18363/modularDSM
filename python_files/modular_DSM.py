@@ -1,4 +1,5 @@
 import sys
-sys.path.append("C:\Users\bcast\OneDrive\Documents\Repository\modularDSM")
+sys.path.insert(0,"C:/Users/Docker/Documents/UoB/Repository/")
 
-import dependencies.sle.sle as sle
+import modularDSM.dependencies.sle.sle as sle
+import modularDSM.dependencies.motor_interface.stepper_motor_interface as smi
